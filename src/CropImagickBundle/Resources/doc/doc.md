@@ -9,12 +9,13 @@
 1. composer require ahonymous/crop-imagick-bundle
 2. add bundle to the kernel
 3. config
-    >crop_imagick:
-    >    cache_path: "cache"
-    >    sizes:
-    >        - { name: "trumbnail500x500", width: 500, height: 500 }
-    >        - { name: "trumbnail500x300", width: 500, height: 300 }
-    >        - { name: "trumbnail300x500", width: 300, height: 500 }
+
+> crop_imagick:
+>     cache_path: "cache"
+>     sizes:
+>         - { name: "trumbnail500x500", width: 500, height: 500 }
+>         - { name: "trumbnail500x300", width: 500, height: 300 }
+>         - { name: "trumbnail300x500", width: 300, height: 500 }
 
 
 ## Use
