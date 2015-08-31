@@ -1,0 +1,24 @@
+{
+    "name": "ahonymous/crop-imagick",
+    "type": "symfony-bundle",
+    "description": "The small a symfony-bundle to crop uploaded images.",
+    "keywords": ["symfony", "imagick", "crop", "bundle"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alex Moshta",
+            "email": "ahonymous@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "autoload": {
+        "psr-4": {
+            "": "src/",
+            "SymfonyStandard\\": "app/SymfonyStandard/"
+        }
+    },
+    "require": {
+        "php": ">=5.5",
+        "ext-imagick": ">=3.0.0"
+    }
+}

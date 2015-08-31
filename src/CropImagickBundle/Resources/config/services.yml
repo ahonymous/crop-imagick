@@ -1,0 +1,14 @@
+services:
+    crop_imagick.imagick_service:
+        class: CropImagickBundle\Imagick\ImagickService
+        arguments:
+            - %kernel.root_dir%
+            - %crop_imagick.sizes%
+            - %crop_imagick.cache_path%
+
+    crop_imagick.twig_extension:
+        class: CropImagickBundle\Twig\TwigExtension
+        arguments:
+            - %crop_imagick.cache_path%
+        tags:
+            - { name: twig.extension }
