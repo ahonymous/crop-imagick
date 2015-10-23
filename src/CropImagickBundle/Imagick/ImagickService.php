@@ -1,6 +1,6 @@
 <?php
 
-namespace CropImagickBundle\Imagick;
+namespace Ahonymous\CropImagickBundle\Imagick;
 
 class ImagickService
 {
