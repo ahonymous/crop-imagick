@@ -1,6 +1,6 @@
 <?php
 
-namespace CropImagickBundle;
+namespace Ahonymous\CropImagickBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 

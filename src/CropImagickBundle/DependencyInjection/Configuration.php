@@ -1,6 +1,6 @@
 <?php
 
-namespace CropImagickBundle\DependencyInjection;
+namespace Ahonymous\CropImagickBundle\DependencyInjection;
 
 use Symfony\Component\Config\Definition\Builder\TreeBuilder;
 use Symfony\Component\Config\Definition\ConfigurationInterface;

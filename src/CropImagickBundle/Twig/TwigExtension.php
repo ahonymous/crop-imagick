@@ -1,6 +1,6 @@
 <?php
 
-namespace CropImagickBundle\Twig;
+namespace Ahonymous\CropImagickBundle\Twig;
 
 class TwigExtension extends \Twig_Extension
 {
